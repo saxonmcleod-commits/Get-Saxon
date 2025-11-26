@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
               className="flex-shrink-0 flex items-center gap-2 font-extrabold text-xl tracking-tighter text-white hover:text-indigo-400 transition"
             >
               <Code2 className="w-7 h-7 text-indigo-500" />
-              <span>GET SAXON</span>
+              <span>SAXON KAIGE</span>
             </a>
           </div>
 
@@ -64,8 +64,8 @@ export const Navbar: React.FC = () => {
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${location.pathname === link.href
-                      ? 'text-indigo-400'
-                      : 'text-zinc-300 hover:text-indigo-400'
+                    ? 'text-indigo-400'
+                    : 'text-zinc-300 hover:text-indigo-400'
                     }`}
                 >
                   {link.name}
@@ -107,8 +107,8 @@ export const Navbar: React.FC = () => {
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === link.href
-                    ? 'text-indigo-400 bg-zinc-800'
-                    : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
+                  ? 'text-indigo-400 bg-zinc-800'
+                  : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
                   }`}
               >
                 {link.name}
